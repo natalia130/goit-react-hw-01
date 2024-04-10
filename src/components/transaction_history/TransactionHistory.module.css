@@ -1,0 +1,17 @@
+.transaction-table {
+  width: 600px;
+  border: 2px solid #111;
+  border-collapse: collapse;
+}
+.transaction-table-head {
+  border: 2px solid #111;
+  color: #fff;
+  background-color: #111;
+}
+.transaction-table th,
+.transaction-table td {
+  border: 2px solid #111;
+}
+.transaction-table tr:nth-child(even) {
+  background-color: darkgrey;
+}
